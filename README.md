@@ -1,15 +1,12 @@
-# SimpleMDE Theme Base
+# SimpleMDE Theme Minimum
 
-[![Build Status](https://img.shields.io/travis/xcatliu/simplemde-theme-base.svg?style=flat-square)](https://travis-ci.org/xcatliu/simplemde-theme-base) [![npm package](https://img.shields.io/npm/v/simplemde-theme-base.svg?style=flat-square)](https://www.npmjs.org/package/simplemde-theme-base)
+> The theme Minimum for [SimpleMDE](https://simplemde.com/) is based on [Simplemde Theme Base](https://github.com/xcatliu/simplemde-theme-base)
 
-> The base theme for [SimpleMDE](https://simplemde.com/), you can easily [create your custom theme](https://github.com/xcatliu/simplemde-theme-base#create-your-theme) based on this.
-
-- [Demo](http://simplemde-theme-base.mazimd.com/)
 - [List of themes](https://github.com/xcatliu/simplemde-theme-base/wiki/List-of-themes)
 
 ## Screenshot
 
-![Screenshot of SimpleMDE Theme Base](docs/screenshot.png)
+![Screenshot of SimpleMDE Theme Minimum](docs/screenshot.png)
 
 ## How to use
 
