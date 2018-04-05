@@ -4,7 +4,7 @@
   //
 
   background-color: $color-background;
-  border: 1px solid $color-border;
+  // border: 1px solid $color-border;
   border-bottom: 0;
   border-top-left-radius: $width-border-radius;
   border-top-right-radius: $width-border-radius;
@@ -32,8 +32,9 @@
   //
 
   a {
-    border: 1px solid transparent;
+    -webkit-transition: 0.3s linear;
     border-radius: $width-border-radius;
+    border: 1px solid transparent;
     color: $color-text-muted !important;
     cursor: pointer;
     display: inline-block;
@@ -42,11 +43,12 @@
     margin: 0;
     text-align: center;
     text-decoration: none !important;
+    transition: 0.3s linear;
     width: $smde-width-toolbar-icon;
 
     &.active,
     &:hover {
-      border-color: $color-border;
+      // border-color: $color-border;
       color: $color-text !important;
     }
 

@@ -7,6 +7,14 @@
 //
 //
 
+html {
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+$width-border-radius: 0;
+$color-border: #e5e5e5;
 
 // // Background color
 // $color-background: #444;

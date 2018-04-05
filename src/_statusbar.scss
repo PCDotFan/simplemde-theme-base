@@ -5,7 +5,7 @@
 .editor-statusbar {
   color: $color-text-muted;
   font-family: $font-family;
-  font-size: $font-size-small;
+  font-size: 14px;
   padding: $width-gap-half $width-gap;
   text-align: right;
 }
@@ -16,13 +16,13 @@
 }
 
 .editor-statusbar .lines::before {
-  content: 'lines: ';
+  content: '行数：';
 }
 
 .editor-statusbar .words::before {
-  content: 'words: ';
+  content: '词数：';
 }
 
 .editor-statusbar .characters::before {
-  content: 'characters: ';
+  content: '字数：';
 }

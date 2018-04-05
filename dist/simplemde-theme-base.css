@@ -1,6 +1,10 @@
 /* SimpleMDE Theme Base v0.2.1 https://github.com/xcatliu/simplemde-theme-base#readme */
 
 @charset "UTF-8";
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
 /* THIS FILE IS COPIED FROM CODEMIRROR.CSS, PLEASE DONOT EDIT IT. */
 /* BASICS */
 .CodeMirror {
@@ -404,9 +408,9 @@ span.CodeMirror-selectedtext {
 
 .CodeMirror {
   background-color: white;
-  border: 1px solid #ddd;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border: 1px solid #e5e5e5;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
   color: #333;
   font-family: inherit;
   font-size: 16px;
@@ -425,7 +429,7 @@ span.CodeMirror-selectedtext {
 .CodeMirror-fullscreen {
   background-color: white;
   border: 0;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #e5e5e5;
   bottom: 0;
   height: auto;
   left: 0;
@@ -544,8 +548,8 @@ span.CodeMirror-selectedtext {
 
 .editor-preview-side {
   border: 0;
-  border-left: 1px solid #ddd;
-  border-top: 1px solid #ddd;
+  border-left: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
   bottom: 0;
   position: fixed;
   right: 0;
@@ -603,7 +607,7 @@ span.CodeMirror-selectedtext {
   .editor-preview-side table th,
   .editor-preview-side table td {
     border: 0;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #e5e5e5;
     padding: 5px;
     text-align: left; }
   .editor-preview table th,
@@ -629,10 +633,9 @@ span.CodeMirror-selectedtext {
 
 .editor-toolbar {
   background-color: white;
-  border: 1px solid #ddd;
   border-bottom: 0;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
   font-size: 16px;
   padding: 0 15px;
   position: relative;
@@ -649,8 +652,9 @@ span.CodeMirror-selectedtext {
   .editor-toolbar::after {
     margin-top: 7.5px; }
   .editor-toolbar a {
+    -webkit-transition: 0.3s linear;
+    border-radius: 0;
     border: 1px solid transparent;
-    border-radius: 3px;
     color: #777 !important;
     cursor: pointer;
     display: inline-block;
@@ -659,9 +663,10 @@ span.CodeMirror-selectedtext {
     margin: 0;
     text-align: center;
     text-decoration: none !important;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
     width: 30px; }
     .editor-toolbar a.active, .editor-toolbar a:hover {
-      border-color: #ddd;
       color: #333 !important; }
     .editor-toolbar a::before {
       line-height: 30px; }
@@ -683,7 +688,7 @@ span.CodeMirror-selectedtext {
     .editor-toolbar a.fa-header-smaller::after {
       content: "▼"; }
   .editor-toolbar i.separator {
-    border-right: 1px solid #ddd;
+    border-right: 1px solid #e5e5e5;
     color: transparent;
     display: inline-block;
     margin: 0 7.5px;
@@ -729,7 +734,7 @@ span.CodeMirror-selectedtext {
 .editor-statusbar {
   color: #777;
   font-family: inherit;
-  font-size: 85%;
+  font-size: 14px;
   padding: 7.5px 15px;
   text-align: right; }
 
@@ -738,12 +743,12 @@ span.CodeMirror-selectedtext {
   margin-left: 1em; }
 
 .editor-statusbar .lines::before {
-  content: 'lines: '; }
+  content: '行数：'; }
 
 .editor-statusbar .words::before {
-  content: 'words: '; }
+  content: '词数：'; }
 
 .editor-statusbar .characters::before {
-  content: 'characters: '; }
+  content: '字数：'; }
 
 /*# sourceMappingURL=simplemde-theme-base.css.map */
